@@ -1,4 +1,4 @@
-# Sencha ExtWebComponents - Getting Started
+# Sencha ExtElements - Getting Started
 
 ## Release Notes
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This guide will show you how to install and configure ExtWebComponents in your development environment.
+This guide will show you how to install and configure ExtElements in your development environment.
 
 ## Requirements
 
@@ -16,11 +16,11 @@ ExtWebComponent requires the following to be installed before proceeding:
 * [NPM 6+](#getting_started_-_installing_node_and_npm)
 * [Java 8](#getting_started_-_installing_java)
 
-## Creating Your First ExtWebComponents Application
+## Creating Your First ExtElements Application
 
 ### Step 1a: Authenticate to Sencha's NPM Registry - early adopter
 
-ExtWebComponents and all related packages are hosted on Sencha's private NPM registry.
+ExtElements and all related packages are hosted on Sencha's private NPM registry.
 
 To gain access to the early adopter registry, contact Sencha Sales.
 
@@ -39,9 +39,9 @@ This command configures npm to download packages in the `@sencha` scope from Sen
 *************
 When this product is in production...
 
-ExtWebComponents and all related packages are hosted on Sencha's private NPM registry.
+ExtElements and all related packages are hosted on Sencha's private NPM registry.
 
-To gain access to this registry, [sign up for a trial of ExtWebComponent](https://www.sencha.com/products/extwebcomponents/evaluate).  
+To gain access to this registry, [sign up for a trial of ExtWebComponent](https://www.sencha.com/products/ExtElements/evaluate).
 
 Once you have received your credentials, you can authenticate by running the following command:
 
@@ -64,21 +64,21 @@ First, if you have not already done so, install [npm](https://www.npmjs.com/) (a
 npm install -g @sencha/ext-web-components-gen
 ```
 
-### Step 3: Create a starter ExtWebComponents application with ext-web-components-gen
+### Step 3: Create a starter ExtElements application with ext-web-components-gen
 
 Generate an initial application with ext-web-components-gen
 
 ```bash
-ext-web-components-gen app MyCoolWebExtWebComponentsApp
+ext-web-components-gen app MyCoolWebExtElementsApp
 ```
 
 This will create a folder for your new application and install all npm packages
 
-### Step 4: Run the newly created starter ExtWebComponents application
+### Step 4: Run the newly created starter ExtElements application
 
 When the install is finished:
 
-type "cd MyCoolWebExtWebComponentsApp" then "npm start" to run the development build and open your new application in a web browser
+type "cd MyCoolWebExtElementsApp" then "npm start" to run the development build and open your new application in a web browser
 (for the current early adopter release, you need to run 'npm start' twice for the app to display)
 
 ```
@@ -92,10 +92,10 @@ The resulting app uses webpack-dev-server and hot-loading. Any changes you make 
 
 ## Example Applications
 
-The [ext-web-components repo on GitHub](https://github.com/sencha/ext-web-components) contains several example apps that you can use to learn more about ExtWebComponents.  Each has a readme that contains instructions for downloading and running:
+The [ext-web-components repo on GitHub](https://github.com/sencha/ext-web-components) contains several example apps that you can use to learn more about ExtElements.  Each has a readme that contains instructions for downloading and running:
 
-* [ext-web-components-kitchensink](https://github.com/sencha/ext-web-components/tree/ext-components-7.0.x/packages/ext-web-components-kitchensink) - Shows how to use every ExtWebComponents. See it running [here](https://examples.sencha.com/ExtWebComponents/7.0.0/kitchensink/).
-[ext-web-components-conference-app](https://github.com/sencha/ext-web-components/tree/ext-components-7.0.x/packages/ext-web-components-conference-app) - ExtWebComponents Conference Application Sample. See it running [here](https://examples.sencha.com/ExtWebComponents/7.0.0/conference-app/#Schedule).
+* [ext-web-components-kitchensink](https://github.com/sencha/ext-web-components/tree/ext-components-7.0.x/packages/ext-web-components-kitchensink) - Shows how to use every ExtElements. See it running [here](https://examples.sencha.com/ExtElements/7.0.0/kitchensink/).
+[ext-web-components-conference-app](https://github.com/sencha/ext-web-components/tree/ext-components-7.0.x/packages/ext-web-components-conference-app) - ExtElements Conference Application Sample. See it running [here](https://examples.sencha.com/ExtElements/7.0.0/conference-app/#Schedule).
 
 ## Appendix
 
